@@ -19,6 +19,7 @@ function Header(props) {
                <a href='#Section'>Model X</a>
                <a href='#Section'>Model Y</a>
                <a href='#Section'>Model 3</a>
+               <a href='#Section'>Accessories</a>
             </Menu>
             <Rightmenu>
                <a href='#'>Shop</a>
@@ -66,7 +67,7 @@ const Menu = styled.div`
    flex: 1;
 
    a{
-       font-weight: 600;
+       font-weight: 700;
        text-transform: uppercase;
        padding: 0 10px;
        flex-wrap: nowrap;
