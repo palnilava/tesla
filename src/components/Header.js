@@ -85,7 +85,7 @@ const Rightmenu = styled.div`
 display: flex;
 align-items: center;
    a{
-       font-weight: 600;
+       font-weight: 700;
        text-transform: uppercase;
        margin-right: 10px;
        flex-wrap: nowrap;
