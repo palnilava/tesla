@@ -2,6 +2,9 @@ import React from 'react'
 import styled from "styled-components"
 import {Fade} from 'react-reveal';
 
+import arrowdown from '../images/down-arrow.svg';
+// background-image: ${props => `url("/images/${props.bgimg}")`}
+
 function Section(props) {
     return (
         <Wrap bgimg={props.backimg}>
@@ -24,7 +27,7 @@ function Section(props) {
           {/* it means if right button exist then execute it else don't */}
            
            </ButtounGroup>
-           <ArrowDown src="/images/down-arrow.svg" />
+           <ArrowDown src={arrowdown} />
               </Fade>
            </Buttons>
         </Wrap>
@@ -42,8 +45,7 @@ const Wrap = styled.div`
    flex-direction: column;
    align-items: center;
    justify-content: space-between;
-   background-image: ${props => `url("/images/${props.bgimg}")`}
-
+   background-image: ${props => `url("${props.bgimg}")`}
 `
 
 const ItemText = styled.div`

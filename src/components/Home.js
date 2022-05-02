@@ -1,7 +1,13 @@
 import React from 'react'
 import styled from "styled-components"
 import Section from './Section'
-
+import Section1img from '../images/model-s.jpg';
+import Section2img from '../images/model-x.jpg';
+import Section3img from '../images/model-y.jpg';
+import Section4img from '../images/model-3.jpg';
+import Section5img from '../images/solar-panel.jpg';
+import Section6img from '../images/solar-roof.jpg';
+import Section7img from '../images/accessories.jpg';
 function Home() {
     return (
         <Container>
@@ -9,7 +15,7 @@ function Home() {
          id="model-s"
          title="Model S"
          des="Order online For Touchless Delivery "
-         backimg="model-s.jpg"
+         backimg={Section1img}
          LeftButtontxt="Custom Order"
          RightButtontxt="Existing Inventory "
          />
@@ -18,7 +24,7 @@ function Home() {
          id="model-x"
          title="Model X"
          des="Order online For Touchless Delivery "
-         backimg="model-x.jpg"
+         backimg={Section2img}
          LeftButtontxt="Custom Order"
          RightButtontxt="Existing Inventory "
          />
@@ -27,7 +33,7 @@ function Home() {
          id="model-x"
          title="Model Y"
          des="Order online For Touchless Delivery "
-         backimg="model-y.jpg"
+         backimg={Section3img}
          LeftButtontxt="Custom Order"
          RightButtontxt="Existing Inventory "
          />
@@ -36,7 +42,7 @@ function Home() {
          id="model-3"
          title="Model 3"
          des="Order online For Touchless Delivery "
-         backimg="model-3.jpg"
+         backimg={Section4img}
          LeftButtontxt="Custom Order"
          RightButtontxt="Existing Inventory "
          />
@@ -44,7 +50,7 @@ function Home() {
         <Section
          title="Lowest cost solar panel in America"
          des="Money back  guarantee "
-         backimg="solar-panel.jpg"
+         backimg={Section5img}
          LeftButtontxt="Order Now"
          RightButtontxt="Learn More "
          />
@@ -52,7 +58,7 @@ function Home() {
          <Section
           title="Solar For New roofs"
           des="Money back  guarantee "
-          backimg="solar-roof.jpg"
+          backimg={Section6img}
           LeftButtontxt="Order Now"
           RightButtontxt="Learn More "
           />
@@ -60,7 +66,7 @@ function Home() {
           <Section
            title="Accessories"
            des=""
-           backimg="accessories.jpg"
+           backimg={Section7img}
            LeftButtontxt="Shop Now"
            />
         </Container>

@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import styled from "styled-components"
 import MenuOpenIcon from '@material-ui/icons/MenuOpen';
 import HighlightOffIcon from '@material-ui/icons/HighlightOff';
+import Teslaicon from '../images/logo.svg';
 // import {selectCars} from '../features/car/carSlice';
 // import {useSelector} from 'react-redux';
 
@@ -12,7 +13,7 @@ function Header(props) {
     return (
         <Container>
             <a>
-                <img src='/images/logo.svg'/>
+                <img src={Teslaicon}/>
             </a>
             <Menu>
                <a href='#Section'>Model S</a>
